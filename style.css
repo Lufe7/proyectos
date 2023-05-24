@@ -1,10 +1,150 @@
+*{
+  margin: 0;
+  padding: 0; 
+}
+
+body {
+  background-color: rgb(233, 233, 233);
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
   }
 
-  h1 {
-    font-size: 4rem;
+  #navItems {
+    margin-left: auto;
+    color: white;
+    font-weight: bold;
   }
+
+.special-link {
+  color: orange !important;
+}
+
+.navbar-nav .nav-link:hover {
+  cursor: pointer;
+  background-color: rgb(252, 63, 0);
+  color: blue !important
+}
+
+.titulo{
+  margin-left: 70px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.tittle-text {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+.tittle-text2{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 120px;
+  margin-top: 40px;
+
+
+}
+
+.tittle-text3 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 70px;
+
+}
+
+.tittle-text4 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
+
+.tittle-text5 {
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 80px;
+}
+
+.text {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.text2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.text5 {
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 50px;
+  color: white;
+}
+
+
+.footer {
+  background-color: #ffffff !important;
+  padding: 20px 0;
+}
+
+.footer {
+  padding: 10px 0;
+  background-color: rgb(5, 6, 8) !important;
+}
+
+.footer .row {
+  justify-content: center;
+}
+
+.footer .col-md-4 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 50px;
+}
+
+.footer .icon {
+
+  margin-right: 10px;
+}
+
+.footer .icon-text {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+
+
+
+
+.text-orange {
+  color: orange;
+}
+
+/*El selector * selecciona todos los elementos de la página y establece el margen y el relleno en 0 para eliminar cualquier espacio adicional que puedan tener
+
+La clase .container se utiliza para un contenedor y se aplica un estilo de diseño flexible (display: flex) para centrar horizontal y verticalmente su contenido. La propiedad height: 100vh establece la altura del contenedor al 100% de la altura de la ventana (vh significa viewport height)
+
+El elemento con el id #navItems representa los elementos de navegación de una barra de navegación. El estilo margin-left: auto empuja los elementos de navegación hacia la derecha, mientras que color: white establece el color del texto en blanco y font-weight: bold lo pone en negrita
+
+La clase .special-link se aplica a ciertos enlaces y establece el color del texto en naranja. El !important asegura que este estilo tenga prioridad sobre otros estilos que se puedan aplicar.
+
+Esto se aplica cuando el cursor pasa sobre los enlaces dentro de una barra de navegación. El estilo cursor: pointer cambia el cursor a una mano para indicar que es un enlace clickable. El fondo se establece en un tono de naranja (rgb(252, 63, 0)) y el color del texto se establece en azul.
+
+La clase .titulo se utiliza para un elemento de título y establece un margen izquierdo de 70 píxeles y un peso de fuente en negrita.
+
+La clase .tittle-text se utiliza para un elemento de título y establece el alineamiento del texto en el centro, un margen superior negativo de 500 píxeles para ajustar la posición y un peso de fuente en negrita. También se define una fuente personalizada utilizando la familia de fuentes 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+La clase .text se utiliza para un elemento de texto y establece un margen superior negativo de 750 píxeles para ajustar la posición y utiliza la familia de fuentes 'Times New Roman', Times, serif.
+
+La clase .text-orange se utiliza para establecer de color naranja los elementos que contienen esa clase
